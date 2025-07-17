@@ -1,34 +1,154 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🌊 Massilia Shop - Site E-commerce Marseillais
 
-## Getting Started
+Bienvenue sur Massilia Shop, le site e-commerce de t-shirts et crop-tops aux couleurs de Marseille ! Inspiré des sports nautiques et des années 80, ce site capture l'essence de la culture marseillaise.
 
-First, run the development server:
+## 🏄‍♂️ Fonctionnalités
+
+### Pages principales
+- **Accueil** : Présentation des produits avec sections "Le Fada" (homme) et "La Gaté" (femme)
+- **Notre Histoire** : L'histoire des copains marseillais à l'origine du projet
+- **Beach Vibes** : Générateur d'expressions marseillaises dynamique
+- **Événements** : Les 6 derniers événements de tarpin-bien.com
+- **Contact** : Formulaire de contact avec questions fun
+- **Admin** : Back-office pour gérer les précommandes et messages
+
+### Produits
+#### Section Homme - "Le Fada"
+- Le Massilia shirt (29€)
+- Croc-le (32€)
+- Re-mec (28€)
+- Friou-cool (35€)
+
+#### Section Femme - "La Gaté"
+- Le Massilia-top (26€)
+- Croc-moi (29€)
+- Re-meuf (27€)
+- Corniche-on (31€)
+
+### Fonctionnalités techniques
+- **Précommandes** : Système de précommande avec collecte d'emails
+- **Générateur d'expressions** : Plus de 1000 expressions marseillaises authentiques
+- **Interface d'administration** : Gestion des précommandes et messages
+- **Design responsive** : Adapté à tous les écrans
+- **Charte graphique** : Couleurs vives inspirées des années 80 et sports nautiques
+
+## 🛠️ Technologies utilisées
+
+- **Framework** : Next.js 10
+- **Styling** : Styled-components + CSS global
+- **Fonts** : Google Fonts (Righteous, Roboto)
+- **Storage** : localStorage pour les données (précommandes, messages)
+- **Déploiement** : Prêt pour Vercel/Netlify
+
+## 🚀 Installation et lancement
 
 ```bash
-npm run dev
-# or
+# Cloner le projet
+git clone [url-du-projet]
+
+# Installer les dépendances
+yarn install
+
+# Lancer en développement
 yarn dev
+
+# Construire pour la production
+yarn build
+
+# Lancer en production
+yarn start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Le site sera accessible sur `http://localhost:3000`
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## 🔐 Accès administrateur
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- **URL** : `/admin`
+- **Identifiant** : `C'est qui`
+- **Mot de passe** : `C'est moi`
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## 🎨 Charte graphique
 
-## Learn More
+### Couleurs principales
+- **Rouge corail** : #FF6B6B (principal)
+- **Turquoise** : #4ECDC4 (secondaire)
+- **Bleu océan** : #45B7D1 (accent)
+- **Vert menthe** : #96CEB4 (accent)
 
-To learn more about Next.js, take a look at the following resources:
+### Typographie
+- **Titres** : Righteous (Google Fonts)
+- **Texte** : Roboto (Google Fonts)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Effets visuels
+- Gradients animés
+- Effets de flou (backdrop-filter)
+- Animations CSS (vagues, flottement)
+- Ombres portées
+- Transitions fluides
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 📱 Responsive Design
 
-## Deploy on Vercel
+Le site est entièrement responsive et s'adapte à :
+- Desktop (1200px+)
+- Tablette (768px - 1199px)
+- Mobile (< 768px)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🌊 Expressions marseillaises
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Le générateur Beach Vibes contient plus de 1000 expressions authentiques :
+- Expressions classiques : "Putaing", "Vé", "Peuchère"
+- Expressions modernes : "C'est tarpin bien", "Wesh"
+- Variations créatives et humoristiques
+
+## 📊 Données stockées
+
+### Précommandes
+- ID unique
+- Informations produit
+- Nom et email client
+- Date de précommande
+- Catégorie produit
+
+### Messages de contact
+- Informations personnelles
+- Expression marseillaise préférée
+- Niveau de marseillais
+- Lieu préféré à Marseille
+- Sport nautique pratiqué
+- Message libre
+
+## 🎯 Améliorations futures
+
+- Intégration API réelle pour tarpin-bien.com
+- Système de paiement (Stripe/PayPal)
+- Base de données (MongoDB/PostgreSQL)
+- Authentification JWT
+- Notifications email
+- Gestion des stocks
+- Système de commandes complet
+- Blog/actualités
+- Galerie photos
+- Témoignages clients
+
+## 🤝 Contribution
+
+Ce projet est ouvert aux contributions ! N'hésitez pas à :
+- Ajouter de nouvelles expressions marseillaises
+- Améliorer le design
+- Optimiser les performances
+- Corriger les bugs
+- Proposer de nouvelles fonctionnalités
+
+## 📄 Licence
+
+Ce projet est sous licence MIT.
+
+## 📞 Contact
+
+Pour toute question ou suggestion :
+- Email : contact@massilia-shop.com
+- Réseaux sociaux : @MassiliaShop
+
+---
+
+**Allez, zou ! Vive Marseille ! 🌊⛵🏄‍♂️**
